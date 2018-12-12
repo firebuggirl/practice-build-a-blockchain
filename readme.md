@@ -137,17 +137,20 @@ https://github.com/dvf/blockchain
 
             ` pip3 install flask `
 
-            `python3 blockchain.py `
+            `python3 blockchain.py 
+            `
 
 
 
       - Start server via `Docker`:
 
 
-          - ` docker build -t blockchain . `
+          - ` docker build -t blockchain .
+          `
 
 
-          - ` docker run --rm -p 80:5000 blockchain `
+          - ` docker run --rm -p 80:5000 blockchain
+          `
 
 
                 - To add more instances, vary the public port number before the colon:

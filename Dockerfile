@@ -6,7 +6,7 @@ WORKDIR /app
 ADD requirements.txt /app
 RUN cd /app && \
     pip install -r requirements.txt
-    pip install requests
+
 # Add actual source code.
 ADD blockchain.py /app
 
